@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-const appVersion = "v0.0.1" // Semantic Versioning
+const appVersion = "v0.0.1"
 
 func main() {
 	versionFlag := flag.Bool("version", false, "Print the current app version")
